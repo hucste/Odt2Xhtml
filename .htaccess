@@ -1,0 +1,32 @@
+<Files .htaccess>
+order allow,deny
+deny from all
+</Files>
+
+<IfModule mod_mime.c>
+AddType application/vnd.oasis.opendocument.chart                        odc
+AddType application/vnd.oasis.opendocument.database                     odb
+AddType application/vnd.oasis.opendocument.formula                      odf
+AddType application/vnd.oasis.opendocument.graphics                     odg
+AddType application/vnd.oasis.opendocument.graphics-template            otg
+AddType application/vnd.oasis.opendocument.image                        odi
+AddType application/vnd.oasis.opendocument.presentation                 odp
+AddType application/vnd.oasis.opendocument.presentation-template        otp
+AddType application/vnd.oasis.opendocument.spreadsheet                  ods
+AddType application/vnd.oasis.opendocument.spreadsheet-template         ots
+AddType application/vnd.oasis.opendocument.text                         odt
+AddType application/vnd.oasis.opendocument.text-master                  odm
+AddType application/vnd.oasis.opendocument.text-template                ott
+AddType application/vnd.oasis.opendocument.text-web                     oth
+
+AddType application/vnd.sun.xml.calc			sxc
+AddType application/vnd.sun.xml.calc.template		stc
+AddType application/vnd.sun.xml.draw			sxd
+AddType application/vnd.sun.xml.draw.template		std
+AddType application/vnd.sun.xml.impress			sxi
+AddType application/vnd.sun.xml.impress.template	sti
+AddType application/vnd.sun.xml.math			sxm
+AddType application/vnd.sun.xml.writer			sxw
+AddType application/vnd.sun.xml.writer.global		sxg
+AddType application/vnd.sun.xml.writer.template		stw
+</IfModule>
